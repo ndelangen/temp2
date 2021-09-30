@@ -7692,6 +7692,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 2.x
     "@typescript-eslint/parser": 2.x
     babel-eslint: 10.x
+    chromatic: ^6.0.0-canary.13
     eslint: 6.x
     eslint-config-react-app: ^6.0.0
     eslint-plugin-flowtype: 4.x
@@ -7706,6 +7707,17 @@ __metadata:
     web-vitals: ^1.0.1
   languageName: unknown
   linkType: soft
+
+"chromatic@npm:^6.0.0-canary.13":
+  version: 6.0.0
+  resolution: "chromatic@npm:6.0.0"
+  bin:
+    chroma: bin/main.cjs
+    chromatic: bin/main.cjs
+    chromatic-cli: bin/main.cjs
+  checksum: 2edf0b4f0d5b5e859da73dfda8077d2f355ed86150d34825eac22fd081187c0f87735e1f5ecbed03cfdbb611242312e9db47897d9df32b19f100360c3f9c1057
+  languageName: node
+  linkType: hard
 
 "chrome-trace-event@npm:^1.0.2":
   version: 1.0.2

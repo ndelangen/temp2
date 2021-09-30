@@ -53,6 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:2.34.0"],
             ["@typescript-eslint/parser", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:2.34.0"],
             ["babel-eslint", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:10.1.0"],
+            ["chromatic", "npm:6.0.0"],
             ["eslint", "npm:6.8.0"],
             ["eslint-config-react-app", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:6.0.0"],
             ["eslint-plugin-flowtype", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:4.7.0"],
@@ -14428,6 +14429,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["chromatic", [
+        ["npm:6.0.0", {
+          "packageLocation": "./.yarn/cache/chromatic-npm-6.0.0-a6ab03ca7a-2edf0b4f0d.zip/node_modules/chromatic/",
+          "packageDependencies": [
+            ["chromatic", "npm:6.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["chromatic-repro", [
         ["workspace:.", {
           "packageLocation": "./",
@@ -14451,6 +14461,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:2.34.0"],
             ["@typescript-eslint/parser", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:2.34.0"],
             ["babel-eslint", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:10.1.0"],
+            ["chromatic", "npm:6.0.0"],
             ["eslint", "npm:6.8.0"],
             ["eslint-config-react-app", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:6.0.0"],
             ["eslint-plugin-flowtype", "virtual:a50b9f352c36046e60a5f6b12479d89e04077336f9743be233dd2495f679f29e9e03a2a5547e133d47589021f92173d62c5a8ee02f8081127ca48c442e38de5f#npm:4.7.0"],
