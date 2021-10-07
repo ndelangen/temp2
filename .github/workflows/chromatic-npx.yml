@@ -7,4 +7,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - run: yarn
-    - run: npx -p chromatic@6.0.2-canary.0 chromatic --project-token gcaw1ai2dgo --storybook-build-dir="storybook-static"
+    - run: npx -p chromatic@6.0.2-canary.1 chromatic --project-token gcaw1ai2dgo --storybook-build-dir="storybook-static"
